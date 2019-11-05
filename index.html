@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <form class="form-Todo">
+    <label for="name">Whose in charge?</label>
+    <input type="text" id="name">
+    <label for="taskInput">What needs to be done?</label>
+    <input type="text" id="taskInput">
+    <label for="dateInput"> When is it happening?</label>
+    <input type="text" id="dateInput"> <br>
+    <button type="submit"> Submit </button>
+    </form>
+    <div class="results">
+      <h2>Your Todo list</h2>
+      <form class="deleteList">
+      <ul id="firstPersonInput">
+      </ul>
+      <div class="delete">
+      <button type="submit" name="button">Delete Task</button>
+    </div>
+      </form>
+    </div>
+  </body>
+</html>
